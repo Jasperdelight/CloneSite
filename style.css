@@ -1,0 +1,41 @@
+.hero-img {
+  background-image: url(https://media.istockphoto.com/id/915097804/photo/black-brick-wall-background-texture-dark-masonry.webp?b=1&s=170667a&w=0&k=20&c=prAD9aAyMUzFFJVRV-HUrCQE_YsUqsd8tXFobg8n-eY=);
+}
+
+.contact-card {
+  position: absolute;
+  top: 20%;
+  right: 35%;
+}
+
+.hero-card {
+  display: contents;
+}
+
+.font-main {
+  font-family: 'Kanit', sans-serif;
+}
+
+.message-input {
+  height: 5rem;
+}
+
+.round-border {
+  border-radius: 20%;
+}
+
+@media (max-width: 768px) {
+
+  .contact-card {
+    position: static;
+    top: 50%;
+    right: 50%;
+    /* order: -1; */
+  }
+
+
+  .message-input {
+    height: 5rem;
+  }
+
+}

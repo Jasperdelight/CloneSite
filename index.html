@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- LINKS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+  <title>Clone Site</title>
+</head>
+
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+<body class="">
+
+  <!-- SECTION NAV BAR TOP -->
+
+  <header class="container-fluid bg-primary sticky-top">
+    <section class="row">
+      <div class="col-12 fs-3 font-main text-dark"><i class="mdi mdi-autorenew-off"></i> Lorem, ipsum.</div>
+    </section>
+  </header>
+
+  <!-- SECTION HERO CARD WITH FORM-->
+  <main class="container-fluid">
+
+    <!-- HERO CARD INPUT FORM LEFT SIDE -->
+    <div class="row hero-img text-white">
+      <p class="col-12 my-0">Subtle Heading</p>
+    </div>
+    <section class="row hero-img text-white">
+
+      <div class="col-12 col-md-4 ">
+        <div class=" bg-light text-dark p-2 rounded">
+          <p> LESS SUBTLE HEADING</p>
+          <!-- NAME INPUT -->
+          <div class="row d-flex justify-content-center p-1">
+            <input class="col-10 border-dark" type="text" placeholder="Name">
+          </div>
+          <!-- EMAIL INPUT -->
+          <div class="row d-flex justify-content-center p-1">
+            <input class="col-10 border-dark" type="text" placeholder="Email">
+          </div>
+
+          <!-- PHONE AND EMAIL INPUTS -->
+          <div class="row d-flex justify-content-center p-1">
+            <!-- PHONE INPUT -->
+            <input class="col-4 border-dark" type="text" placeholder="Phone">
+            <div class="col-2"></div>
+            <input class="col-4 border-dark" type="text" placeholder="EXT.">
+          </div>
+          <!-- MESSAGE INPUT -->
+
+          <div class="row d-flex justify-content-center p-1 ">
+            <textarea class="col-10 border-dark" name="Message" id="" placeholder="message" cols="1"
+              rows="3"></textarea>
+            <!-- <input class="col-10 message-input" type="text" placeholder="message"> -->
+          </div>
+
+          <!-- <div class="row">
+          <input type="text" placeholder="Message">
+        </div> -->
+          <!-- Checkbox with Message -->
+          <div class="row p-4">
+            <input class="col-1" type="checkbox">
+            <div class="col-10">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <!-- SUBMIT BUTTON -->
+          <button class="btn btn-primary">Submit</button>
+
+        </div>
+      </div>
+      <!-- SECTION -->
+
+      <!-- RIGHT SIDE HERO CALL TO ACTION -->
+      <div class="col-12 col-md-8 d-none d-md-block text-center">
+        <p>Text Over an Image</p>
+        <p class="border-start border-5 border-success py-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Minus, numquam?</p>
+      </div>
+    </section>
+
+    <!-- SECTION CONTACT INFO -->
+
+    <!--CONTACT INFO LEFT -->
+    <section class="row bg-success text-dark">
+      <div class="col-12 col-md-6 order-2 order-md-1 d-flex">
+        <div class="row">
+          <div class="col-12 fs-2">Lorem, ipsum dolor.</div>
+          <div class="col-12 fs-3">Lorem, ipsum dolor.</div>
+          <div class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, repellendus?, ipsum dolor.
+          </div>
+        </div>
+      </div>
+      <!-- CONTACT INFO RIGHT FLOATING BAR -->
+      <div class="col-12 col-md-6 order-1 order-md-2 d-flex position-relative">
+        <div class="row bg-dark text-light contact-card">
+          <div class="col-12">Lorem, ipsum dolor.</div>
+          <div class="col-12">Lorem ipsum dolor.</div>
+          <div class="col-12">Lorem, ipsum dolor.</div>
+          <div class="col-12">Lorem, ipsum dolor.</div>
+          <div class="col-12">Lorem, ipsum dolor.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT INFO WITH IMG LEFT SIDE -->
+    <section class="row">
+      <div class="col-12 col-md-4"> <img class="img-fluid"
+          src="https://images.unsplash.com/photo-1511406361295-0a1ff814c0ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFyayUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+          alt="placeholder"></div>
+      <!-- RIGHT SIDE COLUMN -->
+      <div class="col-12 col-md-8">
+        <div class="row my-4 py-2">
+          <div class="col-12 fs-3 "><i class="mdi mdi-checkbox-marked"></i> Lorem, ipsum dolor.</div>
+          <div class="col-12 fs-3">Lorem ipsum dolor sit amet.</div>
+          <div class="col-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ducimus itaque
+            earum
+            dolores quis sunt nam dolore. Soluta iure neque, maiores quod adipisci, inventore perspiciatis numquam
+            praesentium fugiat ut deleniti?</div>
+          <div class="col-8"></div>
+          <button class="col-4">more</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTEMONIAL CARDS -->
+
+    <section class="row justify-content-center bg-primary m-2 p-2">
+      <div class="col-12 col-md-3 order-2 order-md-1 m-2 bg-light h-85">
+
+        <div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, natus!</p>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+      </div>
+
+      <div class="col-12 col-md-3 order-1 order-md-2 bg-light">
+
+        <div class="bg-warning">
+          <p class=" text-center fs-1 "><i class="mdi mdi-star"></i><i class="mdi mdi-star"></i><i
+              class="mdi mdi-star"></i>
+          </p>
+          <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, natus!</p>
+          <p class=" text-success">Lorem ipsum dolor sit amet. ipsum dolor sit amet.</p>
+
+        </div>
+
+      </div>
+
+      <div class="col-12 col-md-3 order-3 m-2 p-2 bg-light h-85">
+
+        <div>
+          <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, natus!</p>
+          <p class=" text-success">Lorem ipsum dolor sit amet.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- BOTTOM SECTION -->
+
+    <section class="row bg-dark text-light">
+      <div class="col-12"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum molestias laudantium eaque
+        sapiente in temporibus?</div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <section class="row text-center">
+      <div class="col-12">
+        Contact Us
+      </div>
+    </section>
+
+  </footer>
+
+
+
+
+</body>
+
+</html>
